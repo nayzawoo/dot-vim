@@ -46,6 +46,7 @@ Plugin 'townk/vim-autoclose'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'yggdroot/indentline'
+Plugin 'NLKNguyen/papercolor-theme'
 
 " PDV
 " https://github.com/tobyS/pdv
@@ -55,6 +56,7 @@ nnoremap <buffer> <C-p> :call pdv#DocumentWithSnip()<CR>
 call vundle#end() 
 filetype plugin indent on 
 
+set background=dark
 colorscheme PaperColor
 
 " neocomplete
