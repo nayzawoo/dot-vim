@@ -47,6 +47,7 @@ Plugin 'digitaltoad/vim-pug'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'yggdroot/indentline'
 Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'leafgarland/typescript-vim'
 
 " PDV
 " https://github.com/tobyS/pdv
