@@ -19,7 +19,7 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'mbbill/undotree'
 " Plugin 'mxw/vim-jsx'
-Plugin 'plasticboy/vim-markdown'
+" Plugin 'plasticboy/vim-markdown'
 Plugin 'scrooloose/nerdtree'
 " Plugin 'scrooloose/syntastic'
 Plugin 'Shougo/neocomplete.vim'
@@ -63,7 +63,7 @@ colorscheme PaperColor
 
 " neocomplete
 let g:acp_enableAtStartup = 0
-let g:neocomplete#enable_at_startup = 1
+" let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_auto_select = 1
 let g:neocomplete#enable_smart_case = 1
 let g:neocomplete#sources#syntax#min_keyword_length = 3
@@ -215,7 +215,7 @@ map g* <Plug>(incsearch-nohl-g*)
 map g# <Plug>(incsearch-nohl-g#)
 
 " elzr/vim-json
-au! BufRead,BufNewFile *.json set filetype=json
+" au! BufRead,BufNewFile *.json set filetype=json
 
 " AndrewRadev/sideways.vim
 nnoremap <M-left> :SidewaysLeft<cr>
