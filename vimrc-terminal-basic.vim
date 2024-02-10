@@ -81,8 +81,6 @@ map J 5j
 map K 5k
 xmap J 5j
 xmap K 5k
-noremap ; :
-nnoremap : ;
 nnoremap / /\v
 vnoremap / /\v
 nnoremap , <leader>
